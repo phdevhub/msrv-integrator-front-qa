@@ -1,0 +1,1 @@
+# msrv-integrator-front-qa
