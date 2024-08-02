@@ -2,6 +2,7 @@ package com.phdev.chat.service.impl;
 
 import com.phdev.chat.dto.SessionData;
 import com.phdev.chat.dto.Message;
+import com.phdev.chat.service.ConversationSessionManager;
 import com.phdev.chat.service.MessageService;
 import org.springframework.stereotype.Service;
 
@@ -10,6 +11,7 @@ import java.util.Objects;
 @Service
 public class MessageServiceImpl implements MessageService {
 
+    private ConversationSessionManager conversationSessionManager;
     /**
      *
      */
